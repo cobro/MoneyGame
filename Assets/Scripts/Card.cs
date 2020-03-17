@@ -12,16 +12,14 @@ public class Card : ScriptableObject
     [Header("Answer A")]
     [TextArea(2,4)]
     public string answerTextA;
-    public int mentalA = 0;
-    public int friendsA = 0;
-    public int familyA = 0;
+    public float mentalA = 0;
+    public float familyA = 0;
     public int moneyA = 0;
 
     [Header("Answer B")]
     [TextArea(2,4)]
     public string answerTextB;
-    public int mentalB = 0;
-    public int friendsB = 0;
-    public int familyB = 0;
+    public float mentalB = 0;
+    public float familyB = 0;
     public int moneyB = 0;
 }
