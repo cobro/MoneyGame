@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bec7eb7aefa83b4a9ac94294270c111, type: 3}
-  m_Name: FirstTask
+  m_Name: New Card
   m_EditorClassIdentifier: 
-  name: Peter
+  name: 
   problemDescription: 
   answerA: 
   answerB: 
