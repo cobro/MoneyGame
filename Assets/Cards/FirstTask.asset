@@ -13,16 +13,19 @@ MonoBehaviour:
   m_Name: FirstTask
   m_EditorClassIdentifier: 
   name: Peter
-  problemDescription: 
-  answerA: 
-  answerB: 
-  phycisalA: 0
-  physicalB: 0
-  mentalA: 0
-  mentalB: 0
+  problemDescription: 'Hey,
+
+    wanna go out for a beer with me and Lisa?
+
+    We''ll
+    be at the local in 30 min.'
+  answerTextA: Sorry I cant. I have... stuff to do.
+  mentalA: -2
+  friendsA: -2
+  familyA: 1
   moneyA: 0
-  moneyB: 0
-  familyA: 0
-  familyB: 0
-  friendsA: 0
-  friendsB: 0
+  answerTextB: Sure. See you there soon
+  mentalB: -2
+  friendsB: 2
+  familyB: -1
+  moneyB: -10
