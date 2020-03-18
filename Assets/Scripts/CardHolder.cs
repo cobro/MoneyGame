@@ -33,9 +33,14 @@ public class CardHolder : MonoBehaviour
         social.value += card.familyA/10;
         moneyTracker.Money += card.moneyA;
         money.text = "$" + moneyTracker.Money.ToString();
+
+        if (!moveCamera.cameraAnimating)
+        {
+            Debug.Log("Coroutine Called");
+            StartCoroutine(moveCamera.animateCamera());
+        }
         buttonA.interactable = false;
         buttonB.interactable = false;
-        StartCoroutine(moveCamera.animateCamera());
     }
     public void AnswerB()
     {
@@ -43,8 +48,12 @@ public class CardHolder : MonoBehaviour
         social.value += card.familyB / 10;
         moneyTracker.Money += card.moneyB;
         money.text = "$" + moneyTracker.Money.ToString();
+
+        if (!moveCamera.cameraAnimating)
+        {
+            StartCoroutine(moveCamera.animateCamera());
+        }
         buttonA.interactable = false;
         buttonB.interactable = false;
-        StartCoroutine(moveCamera.animateCamera());
     }
 }
