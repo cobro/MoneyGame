@@ -1005,6 +1005,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Board
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a2fe12c4f6b464550aae73d6e68b1b2d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2fe12c4f6b464550aae73d6e68b1b2d, type: 3}
 --- !u!1 &154380791
@@ -3245,7 +3250,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Give him the money you got.
+  m_text: Sorry I cant. I have... stuff to do.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 56828900168b940e5a0431def8612be6, type: 2}
   m_sharedMaterial: {fileID: -4355564445569981658, guid: 56828900168b940e5a0431def8612be6,
@@ -3315,12 +3320,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 12.68721, w: 16.602121}
   m_textInfo:
     textComponent: {fileID: 936704537}
-    characterCount: 27
+    characterCount: 36
     spriteCount: 0
-    spaceCount: 5
-    wordCount: 6
+    spaceCount: 7
+    wordCount: 8
     linkCount: 0
-    lineCount: 3
+    lineCount: 4
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -5683,7 +5688,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Slam the door in his face
+  m_text: Sure. See you there soon
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 56828900168b940e5a0431def8612be6, type: 2}
   m_sharedMaterial: {fileID: -4355564445569981658, guid: 56828900168b940e5a0431def8612be6,
@@ -5753,10 +5758,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 16.876373, w: 19.320393}
   m_textInfo:
     textComponent: {fileID: 1828529664}
-    characterCount: 25
+    characterCount: 24
     spriteCount: 0
-    spaceCount: 5
-    wordCount: 6
+    spaceCount: 4
+    wordCount: 5
     linkCount: 0
     lineCount: 3
     pageCount: 1
