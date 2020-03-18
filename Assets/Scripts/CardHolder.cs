@@ -31,14 +31,16 @@ public class CardHolder : MonoBehaviour
     {
         health.value += card.mentalA/10;
         social.value += card.familyA/10;
+        moveCamera.NextPathPosition++;
+        moveCamera.switchPosition();
         moneyTracker.Money += card.moneyA;
         money.text = "$" + moneyTracker.Money.ToString();
 
-        if (!moveCamera.cameraAnimating)
+        /*if (!moveCamera.cameraAnimating)
         {
             Debug.Log("Coroutine Called");
             StartCoroutine(moveCamera.animateCamera());
-        }
+        }*/
         buttonA.interactable = false;
         buttonB.interactable = false;
     }
@@ -48,11 +50,13 @@ public class CardHolder : MonoBehaviour
         social.value += card.familyB / 10;
         moneyTracker.Money += card.moneyB;
         money.text = "$" + moneyTracker.Money.ToString();
-
+        moveCamera.NextPathPosition++;
+        moveCamera.switchPosition();
+        /*
         if (!moveCamera.cameraAnimating)
         {
             StartCoroutine(moveCamera.animateCamera());
-        }
+        }*/
         buttonA.interactable = false;
         buttonB.interactable = false;
     }
