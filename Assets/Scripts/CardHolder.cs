@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+[ExecuteInEditMode]
 public class CardHolder : MonoBehaviour
 {
 
@@ -19,9 +20,11 @@ public class CardHolder : MonoBehaviour
     public Button buttonB;
     public moneyTracker moneyTracker;
     public moveCamera moveCamera;
+    public changeDate changeDate;
     [Header("Drop A Card Here")]
     public Card card;
 
+    
     void OnValidate(){
         CardName.text = card.name;
         description.text = card.problemDescription;
@@ -36,6 +39,7 @@ public class CardHolder : MonoBehaviour
         moveCamera.NextPathPosition++;
         moveCamera.switchPosition();
         moneyTracker.Money += card.moneyA;
+        changeDate.changeDateMethod();
         money.text = "$" + moneyTracker.Money.ToString();
 
         /*if (!moveCamera.cameraAnimating)
@@ -51,8 +55,10 @@ public class CardHolder : MonoBehaviour
         health.value += card.mentalB / 10;
         social.value += card.familyB / 10;
         moneyTracker.Money += card.moneyB;
-        money.text = "$" + moneyTracker.Money.ToString();
         moveCamera.NextPathPosition++;
+        changeDate.changeDateMethod();
+        money.text = "$" + moneyTracker.Money.ToString();
+        
         moveCamera.switchPosition();
         /*
         if (!moveCamera.cameraAnimating)

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Second Task
   m_EditorClassIdentifier: 
   name: Peter
-  problemDescription: yo mama
-  answerTextA: Wtf brotha
+  problemDescription: bla bla
+  answerTextA: WAssup
   mentalA: -2
   familyA: 1
   moneyA: 0

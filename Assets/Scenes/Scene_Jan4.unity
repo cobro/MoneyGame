@@ -1295,7 +1295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wtf brotha
+  m_text: WAssup
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 56828900168b940e5a0431def8612be6, type: 2}
   m_sharedMaterial: {fileID: -4355564445569981658, guid: 56828900168b940e5a0431def8612be6,
@@ -1365,10 +1365,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 172846284}
-    characterCount: 10
+    characterCount: 6
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -2411,6 +2411,7 @@ MonoBehaviour:
   buttonB: {fileID: 1266928967}
   moneyTracker: {fileID: 246381091}
   moveCamera: {fileID: 1687258583}
+  changeDate: {fileID: 1024907433}
   card: {fileID: 11400000, guid: 99d2c10a6675f0c48b13a3ce9b0ff10c, type: 2}
 --- !u!1 &577162810
 GameObject:
@@ -3527,14 +3528,18 @@ MonoBehaviour:
   moveCamera: {fileID: 1687258583}
   days:
   - Monday 1st
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Tuesday 2nd
+  - Wednesday 3rd
+  - Thursday 4th
+  - Friday 5th
+  - Saturday 6th
+  - Sunday 7th
+  - Monday 8th
+  - Tuesday 9th
+  - Wednesday 10th
+  - Thursday 11th
+  - Friday 12th
+  date: {fileID: 158190811}
 --- !u!1 &1085905669
 GameObject:
   m_ObjectHideFlags: 0
@@ -3867,7 +3872,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sure. See you there soon
+  m_text: Yeah man
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 56828900168b940e5a0431def8612be6, type: 2}
   m_sharedMaterial: {fileID: -4355564445569981658, guid: 56828900168b940e5a0431def8612be6,
@@ -3937,12 +3942,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1171275568}
-    characterCount: 24
+    characterCount: 8
     spriteCount: 0
-    spaceCount: 4
-    wordCount: 5
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
-    lineCount: 3
+    lineCount: 1
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -4685,12 +4690,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hey,
-
-    wanna go out for a beer with me and Lisa?
-
-    We''ll be at
-    the local in 30 min.'
+  m_text: bla bla
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 56828900168b940e5a0431def8612be6, type: 2}
   m_sharedMaterial: {fileID: -4355564445569981658, guid: 56828900168b940e5a0431def8612be6,
@@ -4760,12 +4760,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -111.05391, w: -193.86948}
   m_textInfo:
     textComponent: {fileID: 1455079217}
-    characterCount: 79
+    characterCount: 7
     spriteCount: 0
-    spaceCount: 18
-    wordCount: 19
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
-    lineCount: 5
+    lineCount: 1
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -4872,6 +4872,7 @@ MonoBehaviour:
   buttonB: {fileID: 746020549}
   moneyTracker: {fileID: 246381091}
   moveCamera: {fileID: 1687258583}
+  changeDate: {fileID: 1024907433}
   card: {fileID: 11400000, guid: 183723afe7715b4428b23862f2dfdd1b, type: 2}
 --- !u!1 &1506587320
 GameObject:
@@ -5820,7 +5821,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: yo mama
+  m_text: bla bla
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 56828900168b940e5a0431def8612be6, type: 2}
   m_sharedMaterial: {fileID: -4355564445569981658, guid: 56828900168b940e5a0431def8612be6,
@@ -6064,7 +6065,8 @@ MonoBehaviour:
   buttonB: {fileID: 71411110}
   moneyTracker: {fileID: 246381091}
   moveCamera: {fileID: 1687258583}
-  card: {fileID: 11400000, guid: 183723afe7715b4428b23862f2dfdd1b, type: 2}
+  changeDate: {fileID: 1024907433}
+  card: {fileID: 11400000, guid: 99d2c10a6675f0c48b13a3ce9b0ff10c, type: 2}
 --- !u!1 &1875006434
 GameObject:
   m_ObjectHideFlags: 0
@@ -6974,7 +6976,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sorry I cant. I have... stuff to do.
+  m_text: WAssup
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 56828900168b940e5a0431def8612be6, type: 2}
   m_sharedMaterial: {fileID: -4355564445569981658, guid: 56828900168b940e5a0431def8612be6,
@@ -7044,12 +7046,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2043587381}
-    characterCount: 36
+    characterCount: 6
     spriteCount: 0
-    spaceCount: 7
-    wordCount: 8
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
-    lineCount: 4
+    lineCount: 1
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
