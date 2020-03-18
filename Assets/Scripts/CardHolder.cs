@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-[ExecuteInEditMode]
 public class CardHolder : MonoBehaviour
 {
 
-    
+    public static float summaryHealth = 0;
+    public static float summarySocial = 0;
+    public static float summaryMoney = 0;
+    public static int weekCounter = 0;
     public TextMeshProUGUI CardName;
     public TextMeshProUGUI description;
     public TextMeshProUGUI answerA;
@@ -34,38 +36,52 @@ public class CardHolder : MonoBehaviour
 
     public void AnswerA()
     {
-        health.value += card.mentalA/10;
-        social.value += card.familyA/10;
-        moveCamera.NextPathPosition++;
-        moveCamera.switchPosition();
+        health.value += card.healthA/10;
+        summaryHealth += card.healthA / 10;
+        social.value += card.socialA/10;
+        summarySocial += card.socialA / 10;
         moneyTracker.Money += card.moneyA;
+        summaryMoney += card.moneyA;
+        moveCamera.NextPathPosition++;
+        weekCounter++;
         changeDate.changeDateMethod();
-        money.text = "$" + moneyTracker.Money.ToString();
-
-        /*if (!moveCamera.cameraAnimating)
-        {
-            Debug.Log("Coroutine Called");
-            StartCoroutine(moveCamera.animateCamera());
-        }*/
+        money.text = moneyTracker.Money.ToString();
+        moveCamera.switchPosition();
         buttonA.interactable = false;
         buttonB.interactable = false;
+        Debug.Log("Health Change " + summaryHealth + " Social Change " + summarySocial + " Money Change " + summaryMoney);
+        
     }
     public void AnswerB()
     {
-        health.value += card.mentalB / 10;
-        social.value += card.familyB / 10;
+        health.value += card.healthB / 10;
+        summaryHealth += card.healthB / 10;
+        social.value += card.socialB / 10;
+        summarySocial += card.socialB / 10;
         moneyTracker.Money += card.moneyB;
+        summaryMoney += card.moneyB;
         moveCamera.NextPathPosition++;
+        weekCounter++;
         changeDate.changeDateMethod();
-        money.text = "$" + moneyTracker.Money.ToString();
-        
+        money.text = moneyTracker.Money.ToString();
         moveCamera.switchPosition();
-        /*
-        if (!moveCamera.cameraAnimating)
-        {
-            StartCoroutine(moveCamera.animateCamera());
-        }*/
         buttonA.interactable = false;
         buttonB.interactable = false;
+        Debug.Log("Health Change " + summaryHealth + " Social Change " + summarySocial + " Money Change " + summaryMoney);
+    }
+
+    void summaryReset()
+    {
+            summaryHealth = 0;
+            summarySocial = 0;
+            summaryMoney = 0;
+     }
+
+    public void progressCards()
+    {
+        summaryReset();
+        moveCamera.NextPathPosition++;
+        moveCamera.switchPosition();
+        changeDate.changeDateMethod();
     }
 }

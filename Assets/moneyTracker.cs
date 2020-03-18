@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class moneyTracker : MonoBehaviour
 {
-    public static int Money = 500;
+    public static float Money = 500;
 }

@@ -20,12 +20,10 @@ MonoBehaviour:
     We''ll
     be at the local in 30 min.'
   answerTextA: Sorry I cant. I have... stuff to do.
-  mentalA: -2
-  friendsA: -2
-  familyA: 1
+  healthA: -2
+  socialA: -1
   moneyA: 0
   answerTextB: Sure. See you there soon
-  mentalB: -2
-  friendsB: 2
-  familyB: -1
+  healthB: 1
+  socialB: 2
   moneyB: -10
