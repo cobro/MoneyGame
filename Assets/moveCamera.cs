@@ -18,7 +18,7 @@ public class moveCamera : MonoBehaviour
         yield return new WaitForSeconds(.5f);
         startTime = Time.time;
         journeyLength = vCam.m_Position;
-        /*while (mainCam.transform.position.x < tempCameraPos.x +850)
+        /*while (vCam.m_Position<)
         {
             mainCam.transform.position = Vector3.Lerp(mainCam.transform.position, new Vector3(tempCameraPos.x + 850, tempCameraPos.y, tempCameraPos.z), 0.1f * Time.deltaTime);
             Debug.Log("Lerping");
