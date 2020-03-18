@@ -7,6 +7,7 @@ using TMPro;
 public class CardHolder : MonoBehaviour
 {
 
+    
     public TextMeshProUGUI CardName;
     public TextMeshProUGUI description;
     public TextMeshProUGUI answerA;
@@ -14,11 +15,12 @@ public class CardHolder : MonoBehaviour
     public Slider health;
     public Slider social;
     public TextMeshProUGUI money;
-    public Card card;
     public Button buttonA;
     public Button buttonB;
     public moneyTracker moneyTracker;
     public moveCamera moveCamera;
+    [Header("Drop A Card Here")]
+    public Card card;
 
     void OnValidate(){
         CardName.text = card.name;
