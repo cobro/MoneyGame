@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 3
   m_EditorClassIdentifier: 
   name: Channel 4
-  problemDescription: "Join today and get 200 FREE rolls on your first payment*.
-    \nYou can play on all our machines, all upcomming football games, "
+  problemDescription: "Join today and get 200 FREE rolls on your first payment *.
+    \nYou can play on all our machines **, not many strings attatched ***"
   answerTextA: Hmm. That sounds like a nice way out of my financial trouble...
   healthA: 0
   socialA: 0
   moneyA: 0
+  feedbackA: We chagred your upcomming fee upfront for you convience.
   answerTextB: "Damn. \nThis sure look like a scam"
-  healthB: 0
+  healthB: 10
   socialB: 0
-  moneyB: -10
+  moneyB: 0
+  feedbackB: 'But but its kinda free .... right. '

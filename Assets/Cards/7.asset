@@ -24,7 +24,7 @@ MonoBehaviour:
   feedbackA: Hmm we will send you another add soon. Just to tept you!
   answerTextB: Well i need the money badly, and they say its fine...
   healthB: -5
-  socialB: 0
+  socialB: -1
   moneyB: 400
   feedbackB: Perfect. We already transfered the money...with the interest rate of
     66 percent.
