@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: 
   name: Mr. Cop
-  problemDescription: "Join today and get 200 FREE rolls on your first payment*.
-    \nYou can play on all our machines, all upcomming football games, "
+  problemDescription: "DIDNT \nYOU SEE THAT RED LIGHT. WHAT ARE YOU THINKING ABOUT!!!"
   answerTextA: Sorry Officer. I didnt see it at all
   healthA: 0
   socialA: 0
   moneyA: 0
+  feedbackA: 
   answerTextB: You must mistake me for someone else. That was not me!!
   healthB: 0
   socialB: 0
   moneyB: -10
+  feedbackB: 

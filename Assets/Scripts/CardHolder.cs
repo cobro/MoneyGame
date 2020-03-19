@@ -10,7 +10,6 @@ public class CardHolder : MonoBehaviour
     public static float summaryHealth = 0;
     public static float summarySocial = 0;
     public static float summaryMoney = 0;
-    public static int weekCounter = 0;
     public TextMeshProUGUI CardName;
     public TextMeshProUGUI description;
     public TextMeshProUGUI answerA;
@@ -18,8 +17,9 @@ public class CardHolder : MonoBehaviour
     public Slider health;
     public Slider social;
     public TextMeshProUGUI money;
-    public Button buttonA;
-    public Button buttonB;
+    public GameObject buttonAGO;
+    public GameObject buttonBGO;
+    public GameObject continueButton;
     public moneyTracker moneyTracker;
     public moveCamera moveCamera;
     public changeDate changeDate;
@@ -42,16 +42,14 @@ public class CardHolder : MonoBehaviour
         summarySocial += card.socialA / 10;
         moneyTracker.Money += card.moneyA;
         summaryMoney += card.moneyA;
-        moveCamera.NextPathPosition++;
-        weekCounter++;
-        changeDate.changeDateMethod();
         money.text = moneyTracker.Money.ToString();
-        moveCamera.switchPosition();
-        buttonA.interactable = false;
-        buttonB.interactable = false;
+        buttonAGO.SetActive(false);
+        buttonBGO.SetActive(false);
+        continueButton.SetActive(true);
+        description.text = card.feedbackA;
         Debug.Log("Health Change " + summaryHealth + " Social Change " + summarySocial + " Money Change " + summaryMoney);
-        
     }
+
     public void AnswerB()
     {
         health.value += card.healthB / 10;
@@ -60,28 +58,31 @@ public class CardHolder : MonoBehaviour
         summarySocial += card.socialB / 10;
         moneyTracker.Money += card.moneyB;
         summaryMoney += card.moneyB;
-        moveCamera.NextPathPosition++;
-        weekCounter++;
-        changeDate.changeDateMethod();
         money.text = moneyTracker.Money.ToString();
-        moveCamera.switchPosition();
-        buttonA.interactable = false;
-        buttonB.interactable = false;
+        buttonAGO.SetActive(false);
+        buttonBGO.SetActive(false);
+        continueButton.SetActive(true);
+        description.text = card.feedbackB;
         Debug.Log("Health Change " + summaryHealth + " Social Change " + summarySocial + " Money Change " + summaryMoney);
     }
 
     void summaryReset()
     {
-            summaryHealth = 0;
-            summarySocial = 0;
-            summaryMoney = 0;
-     }
+        summaryHealth = 0;
+        summarySocial = 0;
+        summaryMoney = 0;
+    }
 
     public void progressCards()
     {
-        summaryReset();
         moveCamera.NextPathPosition++;
         moveCamera.switchPosition();
         changeDate.changeDateMethod();
+    }
+
+    public void continueFromSummary()
+    {
+        summaryReset();
+        progressCards();
     }
 }

@@ -15,6 +15,8 @@ public class Card : ScriptableObject
     public float healthA = 0;
     public float socialA = 0;
     public float moneyA = 0;
+    [TextArea(2, 4)]
+    public string feedbackA;
 
     [Header("Answer B")]
     [TextArea(2,4)]
@@ -22,4 +24,6 @@ public class Card : ScriptableObject
     public float healthB = 0;
     public float socialB = 0;
     public float moneyB = 0;
+    [TextArea(2, 4)]
+    public string feedbackB;
 }

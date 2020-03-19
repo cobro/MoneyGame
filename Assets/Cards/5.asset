@@ -13,13 +13,16 @@ MonoBehaviour:
   m_Name: 5
   m_EditorClassIdentifier: 
   name: Mr. Cop
-  problemDescription: "Join today and get 200 FREE rolls on your first payment*.
-    \nYou can play on all our machines, all upcomming football games, "
-  answerTextA: 'Yes please. '
+  problemDescription: 'I got some night work for you.
+
+    Are you interested?'
+  answerTextA: Yes please. Are boobies involved?
   healthA: 0
   socialA: 0
   moneyA: 0
+  feedbackA: 
   answerTextB: I really cant work right now
   healthB: 0
   socialB: 0
   moneyB: -10
+  feedbackB: 
