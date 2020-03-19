@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bec7eb7aefa83b4a9ac94294270c111, type: 3}
-  m_Name: Second Task
+  m_Name: 3
   m_EditorClassIdentifier: 
-  name: Peter 15:34 Today
-  problemDescription: "Hey friend. Long time no see ... \nWanna go out for a beer
-    with me and Lisa?\nWe'll be at the local in 30 min."
-  answerTextA: Sorry i cant. I hhave some stuff i need to do.
+  name: Channel 4
+  problemDescription: "Join today and get 200 FREE rolls on your first payment*.
+    \nYou can play on all our machines, all upcomming football games, "
+  answerTextA: Hmm. That sounds like a nice way out of my financial trouble...
   healthA: 0
   socialA: 0
   moneyA: 0
-  answerTextB: Sure. See you there soon
+  answerTextB: "Damn. \nThis sure look like a scam"
   healthB: 0
   socialB: 0
   moneyB: -10

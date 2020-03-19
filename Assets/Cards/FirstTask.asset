@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bec7eb7aefa83b4a9ac94294270c111, type: 3}
   m_Name: FirstTask
   m_EditorClassIdentifier: 
-  name: Peter
+  name: The Landlord
   problemDescription: 'Hey,
 
     wanna go out for a beer with me and Lisa?
 
     We''ll
     be at the local in 30 min.'
-  answerTextA: Sorry I cant. I have... stuff to do.
+  answerTextA: Give him the rest of your money.
   healthA: -2
   socialA: -1
   moneyA: 0
