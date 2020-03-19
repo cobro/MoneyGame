@@ -707,7 +707,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Landlord
+  m_text: Mr. Cop
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 56828900168b940e5a0431def8612be6, type: 2}
   m_sharedMaterial: {fileID: -4355564445569981658, guid: 56828900168b940e5a0431def8612be6,
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -48.01562, w: 17.711794}
   m_textInfo:
     textComponent: {fileID: 58304647}
-    characterCount: 12
+    characterCount: 7
     spriteCount: 0
     spaceCount: 1
     wordCount: 2
@@ -2953,7 +2953,7 @@ MonoBehaviour:
   moneyTracker: {fileID: 246381091}
   moveCamera: {fileID: 1687258583}
   changeDate: {fileID: 1024907433}
-  card: {fileID: 11400000, guid: 183723afe7715b4428b23862f2dfdd1b, type: 2}
+  card: {fileID: 11400000, guid: 8f91542da27c247f09fff9a6eb9b4989, type: 2}
 --- !u!1 &260013315
 GameObject:
   m_ObjectHideFlags: 0
@@ -3845,12 +3845,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hey,
-
-    wanna go out for a beer with me and Lisa?
-
-    We''ll be at
-    the local in 30 min.'
+  m_text: "Join today and get 200 FREE rolls on your first payment*. \nYou can play
+    on all our machines, all upcomming football games, "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 56828900168b940e5a0431def8612be6, type: 2}
   m_sharedMaterial: {fileID: -4355564445569981658, guid: 56828900168b940e5a0431def8612be6,

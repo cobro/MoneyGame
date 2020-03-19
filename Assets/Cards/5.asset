@@ -15,11 +15,11 @@ MonoBehaviour:
   name: Mr. Cop
   problemDescription: "Join today and get 200 FREE rolls on your first payment*.
     \nYou can play on all our machines, all upcomming football games, "
-  answerTextA: Sorry Officer. I didnt see it at all
+  answerTextA: 'Yes please. '
   healthA: 0
   socialA: 0
   moneyA: 0
-  answerTextB: You must mistake me for someone else. That was not me!!
+  answerTextB: I really cant work right now
   healthB: 0
   socialB: 0
   moneyB: -10
