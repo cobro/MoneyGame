@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bec7eb7aefa83b4a9ac94294270c111, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  name: Mr. Cop
+  problemDescription: "Join today and get 200 FREE rolls on your first payment*.
+    \nYou can play on all our machines, all upcomming football games, "
+  answerTextA: Sorry Officer. I didnt see it at all
+  healthA: 0
+  socialA: 0
+  moneyA: 0
+  answerTextB: You must mistake me for someone else. That was not me!!
+  healthB: 0
+  socialB: 0
+  moneyB: -10
