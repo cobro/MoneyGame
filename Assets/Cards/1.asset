@@ -10,17 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8bec7eb7aefa83b4a9ac94294270c111, type: 3}
-  m_Name: FirstTask
+  m_Name: 1
   m_EditorClassIdentifier: 
   name: The Landlord
   problemDescription: 'You are two months late.
 
     Where''s my money at?'
-  answerTextA: Give him the rest of your money.
+  answerTextA: 'Give him most of your remaining money.
+
+    your money.'
   healthA: -2
   socialA: -1
   moneyA: -400
-  feedbackA: Yo mama
+  feedbackA: hm.. I guess that ok for now. I will be back for more!
   answerTextB: Sure. See you there soon
   healthB: 1
   socialB: 2

@@ -13,16 +13,15 @@ MonoBehaviour:
   m_Name: 5
   m_EditorClassIdentifier: 
   name: Mr. Cop
-  problemDescription: 'I got some night work for you.
-
-    Are you interested?'
-  answerTextA: Yes please. Are boobies involved?
-  healthA: 0
-  socialA: 0
-  moneyA: 0
-  feedbackA: 
-  answerTextB: I really cant work right now
-  healthB: 0
+  problemDescription: "I got \nsome night work for you.\nAre you interested?"
+  answerTextA: 'okay. '
+  healthA: -2
+  socialA: -1
+  moneyA: 30
+  feedbackA: Great i will email you the details. It has to be done by tomorrow morning
+    at 8 o clock.
+  answerTextB: I really cant work right now, i need to relax
+  healthB: 1
   socialB: 0
-  moneyB: -10
-  feedbackB: 
+  moneyB: 0
+  feedbackB: hmm... okay i will find someone else.

@@ -15,12 +15,12 @@ MonoBehaviour:
   name: Mr. Cop
   problemDescription: "DIDNT \nYOU SEE THAT RED LIGHT. WHAT ARE YOU THINKING ABOUT!!!"
   answerTextA: Sorry Officer. I didnt see it at all
-  healthA: 0
+  healthA: 2
   socialA: 0
   moneyA: 0
-  feedbackA: 
+  feedbackA: hmm.. I will let you go this time...
   answerTextB: You must mistake me for someone else. That was not me!!
-  healthB: 0
+  healthB: -3
   socialB: 0
-  moneyB: -10
-  feedbackB: 
+  moneyB: -50
+  feedbackB: WHAT! You think im stupid. Take this fine!!!
