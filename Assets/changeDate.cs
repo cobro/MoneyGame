@@ -11,6 +11,6 @@ public class changeDate : MonoBehaviour
 
     public void changeDateMethod()
     {
-        date.text = days[(int)moveCamera.NextPathPosition];
+        date.text = days[(int)moveCamera.NextPathPosition-1];
     }
 }
