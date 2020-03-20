@@ -20,9 +20,9 @@ MonoBehaviour:
   socialA: -2
   moneyA: 0
   feedbackA: okay. Call me when you get the time...
-  answerTextB: Sorry Mum. My economy have really been lately. Can i call you up in
-    10 min.
+  answerTextB: Sorry Mum. My economy have really been bad lately. Can I call you
+    up in 10 min.
   healthB: 2
   socialB: 2
   moneyB: 0
-  feedbackB: Sure thing. I should know you can always call me.
+  feedbackB: "Sure thing. \nYou should know you can always call me."
