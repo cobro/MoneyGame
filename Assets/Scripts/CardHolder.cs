@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class CardHolder : MonoBehaviour
@@ -10,6 +11,7 @@ public class CardHolder : MonoBehaviour
     public static float summaryHealth = 0;
     public static float summarySocial = 0;
     public static float summaryMoney = 0;
+    public static bool tookALoan = false;
     public TextMeshProUGUI CardName;
     public TextMeshProUGUI description;
     public TextMeshProUGUI answerA;
@@ -20,7 +22,6 @@ public class CardHolder : MonoBehaviour
     public GameObject buttonAGO;
     public GameObject buttonBGO;
     public GameObject continueButton;
-    public moneyTracker moneyTracker;
     public moveCamera moveCamera;
     public changeDate changeDate;
     [Header("Drop A Card Here")]
@@ -84,5 +85,22 @@ public class CardHolder : MonoBehaviour
     {
         summaryReset();
         progressCards();
+    }
+
+    public void RestartGame()
+    {
+        moveCamera.NextPathPosition = 0;
+        summaryReset();
+        health.value = 0.5f;
+        social.value = 0.5f;
+        moneyTracker.Money = 500;
+        tookALoan = false;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void takekALoan()
+    {
+        AnswerB();
+        tookALoan = true;
     }
 }

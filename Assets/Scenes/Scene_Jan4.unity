@@ -372,9 +372,9 @@ RectTransform:
   - {fileID: 394200354}
   - {fileID: 860309585}
   - {fileID: 1489774504}
-  - {fileID: 255801252}
-  - {fileID: 1726362703}
   - {fileID: 1903223952}
+  - {fileID: 1726362703}
+  - {fileID: 255801252}
   - {fileID: 801493213}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -2151,11 +2151,11 @@ RectTransform:
   - {fileID: 727622975}
   - {fileID: 1683133379}
   m_Father: {fileID: 39690855}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4833, y: 0}
+  m_AnchoredPosition: {x: -2505, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &255801253
@@ -2180,7 +2180,6 @@ MonoBehaviour:
   buttonAGO: {fileID: 727622971}
   buttonBGO: {fileID: 1683133378}
   continueButton: {fileID: 840535298}
-  moneyTracker: {fileID: 246381091}
   moveCamera: {fileID: 1687258583}
   changeDate: {fileID: 1024907433}
   card: {fileID: 11400000, guid: 8f91542da27c247f09fff9a6eb9b4989, type: 2}
@@ -3074,8 +3073,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 137.17, y: -42}
-  m_SizeDelta: {x: 313.52, y: 50}
+  m_AnchoredPosition: {x: 193.17, y: -71}
+  m_SizeDelta: {x: 450, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302884981
 MonoBehaviour:
@@ -3162,7 +3161,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0.55810547}
   m_textInfo:
     textComponent: {fileID: 302884981}
     characterCount: 8
@@ -3860,7 +3859,6 @@ MonoBehaviour:
   buttonAGO: {fileID: 936711082}
   buttonBGO: {fileID: 715729352}
   continueButton: {fileID: 2006559267}
-  moneyTracker: {fileID: 246381091}
   moveCamera: {fileID: 1687258583}
   changeDate: {fileID: 1024907433}
   card: {fileID: 11400000, guid: 99d2c10a6675f0c48b13a3ce9b0ff10c, type: 2}
@@ -4311,7 +4309,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 120, y: -34}
+  m_AnchoredPosition: {x: 176, y: -34}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &479762856
@@ -5261,7 +5259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 137.17, y: 12}
+  m_AnchoredPosition: {x: 193.17, y: 12}
   m_SizeDelta: {x: 313.52, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606058857
@@ -6985,6 +6983,7 @@ MonoBehaviour:
   health: {fileID: 1909139778}
   social: {fileID: 606058857}
   money: {fileID: 302884981}
+  currentBalance: {fileID: 624424376}
 --- !u!1 &802384758
 GameObject:
   m_ObjectHideFlags: 0
@@ -7218,6 +7217,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 801493214}
+        m_MethodName: lastContinueBeforeSummary
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &840535300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7335,7 +7345,6 @@ MonoBehaviour:
   buttonAGO: {fileID: 1303463745}
   buttonBGO: {fileID: 1027890268}
   continueButton: {fileID: 1470075265}
-  moneyTracker: {fileID: 246381091}
   moveCamera: {fileID: 1687258583}
   changeDate: {fileID: 1024907433}
   card: {fileID: 11400000, guid: 1c66fd4b679504f79bf6a5a76ce830ec, type: 2}
@@ -12438,7 +12447,6 @@ MonoBehaviour:
   buttonAGO: {fileID: 1457905014}
   buttonBGO: {fileID: 1257156398}
   continueButton: {fileID: 350305198}
-  moneyTracker: {fileID: 246381091}
   moveCamera: {fileID: 1687258583}
   changeDate: {fileID: 1024907433}
   card: {fileID: 11400000, guid: bb7c34fa66b3245f4bf4356f0b839e4b, type: 2}
@@ -12503,7 +12511,6 @@ MonoBehaviour:
   buttonAGO: {fileID: 505250842}
   buttonBGO: {fileID: 746020547}
   continueButton: {fileID: 796778833}
-  moneyTracker: {fileID: 246381091}
   moveCamera: {fileID: 1687258583}
   changeDate: {fileID: 1024907433}
   card: {fileID: 11400000, guid: 183723afe7715b4428b23862f2dfdd1b, type: 2}
@@ -12794,7 +12801,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 141, y: -116}
+  m_AnchoredPosition: {x: 197, y: -151}
   m_SizeDelta: {x: 239.1, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1542838263
@@ -12841,7 +12848,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1726362702}
-        m_MethodName: progressCards
+        m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14090,7 +14097,6 @@ MonoBehaviour:
   buttonAGO: {fileID: 2104213389}
   buttonBGO: {fileID: 1052384668}
   continueButton: {fileID: 1810586375}
-  moneyTracker: {fileID: 246381091}
   moveCamera: {fileID: 1687258583}
   changeDate: {fileID: 1024907433}
   card: {fileID: 11400000, guid: b6c62ffcc8b2f48fd966b86921f4fb7e, type: 2}
@@ -14171,7 +14177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue
+  m_text: End Game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 56828900168b940e5a0431def8612be6, type: 2}
   m_sharedMaterial: {fileID: -4355564445569981658, guid: 56828900168b940e5a0431def8612be6,
@@ -14243,8 +14249,8 @@ MonoBehaviour:
     textComponent: {fileID: 1755435193}
     characterCount: 8
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -15345,11 +15351,11 @@ RectTransform:
   - {fileID: 1056765541}
   - {fileID: 2007360687}
   m_Father: {fileID: 39690855}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2505, y: 0}
+  m_AnchoredPosition: {x: -4833, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1903223953
@@ -15374,7 +15380,6 @@ MonoBehaviour:
   buttonAGO: {fileID: 1056765537}
   buttonBGO: {fileID: 2007360686}
   continueButton: {fileID: 1724814789}
-  moneyTracker: {fileID: 246381091}
   moveCamera: {fileID: 1687258583}
   changeDate: {fileID: 1024907433}
   card: {fileID: 11400000, guid: 19236d8b1e9f742bfb178e3566d1d8a4, type: 2}
@@ -15568,7 +15573,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 137.17, y: 71}
+  m_AnchoredPosition: {x: 193.17, y: 71}
   m_SizeDelta: {x: 313.52, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1909139778
@@ -16511,7 +16516,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1903223953}
-        m_MethodName: AnswerB
+        m_MethodName: takekALoan
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
