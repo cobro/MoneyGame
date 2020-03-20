@@ -16,9 +16,7 @@ MonoBehaviour:
   problemDescription: 'You are two months late.
 
     Where''s my money at?'
-  answerTextA: 'Give him most of your remaining money.
-
-    your money.'
+  answerTextA: Give him most of your remaining money.
   healthA: -2
   socialA: 0
   moneyA: -400
