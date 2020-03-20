@@ -20,11 +20,11 @@ MonoBehaviour:
 
     your money.'
   healthA: -2
-  socialA: -1
+  socialA: 0
   moneyA: -400
-  feedbackA: hm.. I guess that ok for now. I will be back for more!
+  feedbackA: "I guess \nthat ok for now. I will be back for more!"
   answerTextB: Sure. See you there soon
-  healthB: 1
-  socialB: 2
-  moneyB: -10
+  healthB: 0
+  socialB: 0
+  moneyB: 0
   feedbackB: 

@@ -15,13 +15,13 @@ MonoBehaviour:
   name: Peter 15:34 Today
   problemDescription: "Hey friend. Long time no see ... \nWanna go out for a beer
     with me and Lisa?\nWe'll be at the local in 30 min."
-  answerTextA: Sorry i cant. I have alot of stuff i need to ge done.
+  answerTextA: Sorry i cant. I have alot of stuff i need to get done.
   healthA: 0
-  socialA: -10
+  socialA: -2
   moneyA: 0
-  feedbackA: 'Hm thats a shame. '
-  answerTextB: Sure. See you there soon
-  healthB: 0
-  socialB: 10
-  moneyB: -10
-  feedbackB: Great. Looking forwrad to seeing you again!
+  feedbackA: Hm thats a shame.  Same thing every time!!
+  answerTextB: Sure. I will come as fast as i can.
+  healthB: 2
+  socialB: 2
+  moneyB: -30
+  feedbackB: Great! So happy to hear that! Have really misseed seeing you lately.

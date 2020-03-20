@@ -16,12 +16,12 @@ MonoBehaviour:
   problemDescription: "Join today and get 200 FREE rolls on your first payment *.
     \nYou can play on all our machines **, not many strings attatched ***"
   answerTextA: Hmm. That sounds like a nice way out of my financial trouble...
-  healthA: 0
+  healthA: -1
   socialA: 0
-  moneyA: 0
+  moneyA: 120
   feedbackA: We chagred your upcomming fee upfront for you convience.
   answerTextB: "Damn. \nThis sure look like a scam"
-  healthB: 10
+  healthB: 1
   socialB: 0
   moneyB: 0
   feedbackB: 'But but its kinda free .... right. '

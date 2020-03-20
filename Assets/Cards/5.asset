@@ -12,16 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bec7eb7aefa83b4a9ac94294270c111, type: 3}
   m_Name: 5
   m_EditorClassIdentifier: 
-  name: Mr. Cop
-  problemDescription: "I got \nsome night work for you.\nAre you interested?"
+  name: Boss
+  problemDescription: 'I got some
+
+    extra work for you. But needs to be finished
+    by tomorrow morning
+
+    Are you interested?'
   answerTextA: 'okay. '
   healthA: -2
   socialA: -1
-  moneyA: 30
+  moneyA: 70
   feedbackA: Great i will email you the details. It has to be done by tomorrow morning
     at 8 o clock.
-  answerTextB: I really cant work right now, i need to relax
+  answerTextB: I really cant work right now, i need to sort out some things.
   healthB: 1
-  socialB: 0
-  moneyB: 0
-  feedbackB: hmm... okay i will find someone else.
+  socialB: 2
+  moneyB: 30
+  feedbackB: hmf... well okay i quess thats okay. Let me know if i can helt you out.
+    you can loan 30. seems like you need it
